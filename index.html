@@ -20,7 +20,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
    		<span class="navbar-toggler-icon"></span>
   		</button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse links" id="navbarNav">
             <ul class="navbar-nav d-flex justify-content-around">
                 <li class="nav-item">
                     <a class="nav-link text-light" href="#flights">Flights</a>
@@ -29,7 +29,7 @@
                     <a class="nav-link text-light" href="#pricing">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#booking">Booking</a>
+                    <a class="nav-link text-light" href="#reservation">Booking</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-light" href="#testimonials">Testimonials</a>
@@ -120,7 +120,7 @@
                                 <li>Unforgettable memories</li>
                             </ul>
                             <div class="row justify-content-center">
-                                <a href="#" class="btn btn-primary">Book now</a>
+                                <a href="#reservation" class="btn btn-primary">Book now</a>
                             </div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                                 <li>Free photography</li>
                             </ul>
                             <div class="row justify-content-center">
-                                <a href="#" class="btn btn-primary">Book now</a>
+                                <a href="#reservation" class="btn btn-primary">Book now</a>
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@
             </div>
         </section>
         <!-- Booking -->
-        <section style="padding: 40px 0;" class="bookingSection" id="booking">
+        <section id="reservation" style="padding: 40px 0;" class="bookingSection" id="booking">
             <h3 class="text-center" style="margin: 0 3rem;">Reservation Form</h3>
             <form class="d-flex flex-column align-items-center">
                 <div class="col-sm-8">
@@ -177,6 +177,9 @@
                     <div class="col-md-12">
                         <textarea class="form-control" rows="3" placeholder="Message"></textarea>
                     </div>
+                </div>
+                <div class="form-row col-sm-8" style="padding: 1rem 20px 0;">
+                    <button type="button" class="btn btn-primary align-self-start">Submit</button>
                 </div>
             </form>
             </article>
